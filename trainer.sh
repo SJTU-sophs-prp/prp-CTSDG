@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 python test.py --load_size 256 --image_root ~/code/CTSDG/combined_contrast_cali/ --mask_root ~/code/CTSDG-data/masks/mask50/ --pre_trained ~/code/CTSDG-data/masks/ckpt/mask50_RCF/980000.pt --result_root ./result/mask50_RCF_98w/ --number_eval 19  
